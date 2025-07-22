@@ -1,0 +1,1 @@
+/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -g -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -o libLogger.dylib -install_name @rpath/libLogger.dylib CMakeFiles/Logger_obj.dir/FileLogger.cpp.o

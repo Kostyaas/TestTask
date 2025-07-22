@@ -1,0 +1,17 @@
+add_library(Logger_headers INTERFACE)
+target_include_directories(Logger_headers INTERFACE
+    ${CMAKE_CURRENT_SOURCE_DIR}  
+)
+
+add_library(Logger_obj OBJECT
+    FileLogger.cpp
+    FileLogger.h
+)
+
+add_library(Logger_shared SHARED $<TARGET_OBJECTS:Logger_obj>)
+target_link_libraries(Logger_shared PUBLIC Logger_headers)
+set_target_properties(Logger_shared PROPERTIES OUTPUT_NAME "Logger")
+
+add_library(Logger_static STATIC $<TARGET_OBJECTS:Logger_obj>)
+target_link_libraries(Logger_static PUBLIC Logger_headers)
+set_target_properties(Logger_static PROPERTIES OUTPUT_NAME "Logger")

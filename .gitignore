@@ -1,0 +1,19 @@
+# Сборка
+build/
+*.o
+*.a
+*.so
+*.dylib
+
+# Исполняемые файлы
+bin/
+*.out
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.user
+
+# Системные
+.DS_Store

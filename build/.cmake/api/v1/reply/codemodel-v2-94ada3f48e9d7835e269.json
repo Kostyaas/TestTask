@@ -1,0 +1,135 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lib",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-lib-Debug-c12f15c6f888b43a891c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib"
+				},
+				{
+					"build" : "lib/Logger",
+					"jsonFile" : "directory-lib.Logger-Debug-35650b0bad73aec7aebd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lib/Logger",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "bin",
+					"jsonFile" : "directory-bin-Debug-9ecb904d635c36109f32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "bin",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "TestTask",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Logger_obj::@2e9509a71ff8adbdeb12",
+					"jsonFile" : "target-Logger_obj-Debug-230ab8785834395db61f.json",
+					"name" : "Logger_obj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Logger_shared::@2e9509a71ff8adbdeb12",
+					"jsonFile" : "target-Logger_shared-Debug-942a199ccdb4b01f7e4f.json",
+					"name" : "Logger_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Logger_static::@2e9509a71ff8adbdeb12",
+					"jsonFile" : "target-Logger_static-Debug-d79cf9efe67f83ea99bf.json",
+					"name" : "Logger_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TestTask::@90a2315b7a9c97cd24d2",
+					"jsonFile" : "target-TestTask-Debug-7f5622952f67cc280d40.json",
+					"name" : "TestTask",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/konstantin/labs/test/build",
+		"source" : "/Users/konstantin/labs/test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

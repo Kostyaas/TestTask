@@ -1,0 +1,12 @@
+/Users/konstantin/labs/test/build/CMakeFiles/edit_cache.dir
+/Users/konstantin/labs/test/build/CMakeFiles/rebuild_cache.dir
+/Users/konstantin/labs/test/build/lib/CMakeFiles/edit_cache.dir
+/Users/konstantin/labs/test/build/lib/CMakeFiles/rebuild_cache.dir
+/Users/konstantin/labs/test/build/lib/Logger/CMakeFiles/Logger_obj.dir
+/Users/konstantin/labs/test/build/lib/Logger/CMakeFiles/Logger_shared.dir
+/Users/konstantin/labs/test/build/lib/Logger/CMakeFiles/Logger_static.dir
+/Users/konstantin/labs/test/build/lib/Logger/CMakeFiles/edit_cache.dir
+/Users/konstantin/labs/test/build/lib/Logger/CMakeFiles/rebuild_cache.dir
+/Users/konstantin/labs/test/build/bin/CMakeFiles/TestTask.dir
+/Users/konstantin/labs/test/build/bin/CMakeFiles/edit_cache.dir
+/Users/konstantin/labs/test/build/bin/CMakeFiles/rebuild_cache.dir
