@@ -1,3 +1,0 @@
-add_executable(${PROJECT_NAME} main.cpp AppTest.cpp SocketApp.cpp)
-
-target_link_libraries(${PROJECT_NAME} PRIVATE Logger_static)
