@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.10)
+
+find_package(Threads REQUIRED)
+
+
+add_library(Apps STATIC
+    LogStatistics.cpp
+    LogServer.cpp
+    AppTest.cpp
+)
+
+target_include_directories(Apps PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+target_link_libraries(Apps PUBLIC 
+    Threads::Threads 
+)
+
+if(UNIX AND NOT APPLE)
+    target_link_libraries(Apps PRIVATE pthread)
+endif()
+
+target_link_libraries(Apps PRIVATE Logger_static)
